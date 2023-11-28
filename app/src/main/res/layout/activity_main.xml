@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:layout_margin="3dp"
+        android:text="Safari photo apps" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+
+        <ImageView
+            android:id="@+id/pic1"
+            android:layout_width="379dp"
+            android:layout_height="220dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="112dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/pic1" />
+
+        <ImageView
+            android:id="@+id/pic2"
+            android:layout_width="379dp"
+            android:layout_height="220dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="112dp"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/pic2" />
+
+        <ImageView
+            android:id="@+id/pic3"
+            android:layout_width="379dp"
+            android:layout_height="220dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="112dp"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/pic3" />
+
+        <ImageView
+            android:id="@+id/pic4"
+            android:layout_width="379dp"
+            android:layout_height="220dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="24dp"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/pic4" />
+
+        <ImageButton
+            android:id="@+id/btnNext"
+            android:layout_width="73dp"
+            android:layout_height="68dp"
+            android:layout_marginEnd="312dp"
+            android:contentDescription="Next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.868"
+            app:srcCompat="@android:drawable/ic_media_previous" />
+
+        <ImageButton
+            android:id="@+id/btnPrev"
+            android:layout_width="76dp"
+            android:layout_height="68dp"
+            android:layout_marginEnd="24dp"
+            android:contentDescription="Previous"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.868"
+            app:srcCompat="@android:drawable/ic_media_next" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tVName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="Nairobi Safari Walk"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
